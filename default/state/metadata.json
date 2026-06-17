@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "config": {
+    "bundle": {
+      "name": "referral-copilot",
+      "target": "default",
+      "git": {
+        "bundle_root_path": "."
+      }
+    },
+    "workspace": {
+      "file_path": "/Workspace/Users/shubhanshijain05@outlook.com/.bundle/referral-copilot/default/files"
+    },
+    "resources": {},
+    "presets": {
+      "source_linked_deployment": false
+    }
+  },
+  "extra": {}
+}

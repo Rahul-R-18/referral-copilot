@@ -1,0 +1,26 @@
+{
+ "state_version": 2,
+ "cli_version": "1.3.0",
+ "lineage": "a20a0e96-6aa6-41f3-8fdb-c483dc90d9ca",
+ "serial": 1,
+ "state": {
+  "resources.apps.app": {
+   "__id__": "referral-copilot",
+   "state": {
+    "description": "Healthcare facility referral copilot backed by Lakebase",
+    "name": "referral-copilot",
+    "resources": [
+     {
+      "name": "postgres",
+      "postgres": {
+       "branch": "projects/referral-copilot/branches/production",
+       "database": "projects/referral-copilot/branches/production/databases/databricks-postgres",
+       "permission": "CAN_CONNECT_AND_CREATE"
+      }
+     }
+    ],
+    "source_code_path": "/Workspace/Users/shubhanshijain05@outlook.com/.bundle/referral-copilot/default/files"
+   }
+  }
+ }
+}

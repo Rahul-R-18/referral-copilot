@@ -1,0 +1,4 @@
+command: ['npm', 'run', 'start']
+env:
+  - name: LAKEBASE_ENDPOINT
+    value: projects/referral-copilot/branches/production/endpoints/primary
